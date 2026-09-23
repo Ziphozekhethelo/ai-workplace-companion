@@ -1,52 +1,151 @@
-# AI Workplace Companion
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS-style web app called AI Workplace Productivity Assistant.
+## Project Overview
 
-Create a clean professional dashboard using light pink, white, and grey, with subtle rounded cards and a polished corporate look.
+**AI Workplace Productivity Assistant** is a modern, responsive web application designed to help professionals improve workplace productivity using AI.
 
-Main features
+The application combines AI-powered research, task planning, and workplace assistance into one simple SaaS-style dashboard. Users can research topics, organize and prioritize tasks, generate schedules, and interact with an AI workplace chatbot.
 
-Dashboard: Overview of tasks, research, and recent AI activity.
+The application is designed as a **frontend-only project** with no backend or database, making it lightweight and easy to run and demonstrate.
 
-AI Research Assistant: User enters a topic or article text. AI generates a clear summary, key insights, important points, and practical recommendations. Allow the generated output to be edited.
+## Features Implemented
 
-AI Task Planner: User enters tasks, deadlines, and priorities. AI creates a realistic daily or weekly schedule and prioritizes tasks. Make the schedule editable.
+### 📊 Dashboard
 
-AI Workplace Chatbot: Interactive chat interface where users can ask workplace-related questions and receive useful, specific AI-generated responses.
+* Modern SaaS-style dashboard
+* Overview of productivity activities
+* Recent AI activity
+* Clean and responsive interface
 
-Sidebar navigation: Dashboard, Research Assistant, Task Planner, AI Chat, Settings.
+### 🔎 AI Research Assistant
 
-Responsive design: Work well on desktop, tablet, and mobile.
+* Enter a topic or article content
+* Generate AI-powered summaries
+* Identify key insights and important points
+* Generate practical recommendations
+* Edit generated AI responses
 
-Include structured input fields, clear action buttons, loading states, and editable AI outputs.
+### 📅 AI Task Planner
 
-Add a visible Responsible AI disclaimer stating that AI outputs should be reviewed and verified before being used for important workplace decisions.
+* Add workplace tasks and deadlines
+* Specify task priorities
+* Generate daily or weekly schedules
+* AI-assisted task prioritization
+* Editable generated schedules
 
-Important
+### 💬 AI Workplace Chatbot
 
-Use AI-generated, context-specific responses rather than generic placeholder responses. Include well-designed example prompts to guide users.
+* Interactive AI chat interface
+* Ask workplace-related questions
+* Receive context-specific AI-generated responses
+* Simple and user-friendly conversation interface
 
-This is a frontend-only application. Do not create a backend, database, authentication system, or payment system. Keep user data in local browser state/localStorage where appropriate.
+### 🎨 User Interface
 
-Prioritize a polished, functional MVP with excellent UI/UX over unnecessary features.
+* Responsive design for desktop, tablet, and mobile
+* Light pink, white, and grey colour palette
+* Modern cards and rounded UI elements
+* Sidebar navigation
+* Structured input forms
+* Loading states and clear action buttons
 
-This project was built with [Lovable](https://lovable.dev).
+### ⚠️ Responsible AI
 
-## Build with Lovable
+* Includes a Responsible AI disclaimer
+* Encourages users to review and verify AI-generated information
+* AI outputs are intended to assist users rather than replace professional judgment
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/fcf4e0d1-c423-4910-8513-a37e2615d064).
+## Technologies and Tools Used
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+* **React** – Frontend application development
+* **TypeScript** – Type-safe application development
+* **Tailwind CSS** – Responsive styling and UI design
+* **Vite** – Development server and build tool
+* **Lucide React** – Interface icons
+* **Lovable** – AI-assisted application development
+* **GitHub** – Source code management and project hosting
+* **Browser Local Storage** – Local client-side data persistence
 
-## Development
+> No backend, database, or authentication system is required for this project.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Setup Instructions
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ai-workplace-productivity-assistant.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd ai-workplace-productivity-assistant
+```
+
+### 3. Install Dependencies
+
+Make sure **Node.js** is installed on your computer, then run:
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
 npm run dev
 ```
+
+The application will be available at the local address provided by Vite, usually:
+
+```text
+http://localhost:5173
+```
+
+### 5. Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+### 6. Preview the Production Build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+ai-workplace-productivity-assistant/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── lib/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── public/
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── README.md
+```
+
+## Author
+
+**Ziphozekhethelo Gamede**
+
+## Responsible AI Notice
+
+AI-generated content may contain inaccuracies or incomplete information. Users should review and verify AI outputs before using them for important workplace decisions, research, planning, or professional communication.
+
+## Project Status
+
+**Status:** Completed Frontend MVP
+
+The project focuses on demonstrating how AI can be incorporated into workplace productivity tools through research assistance, task planning, and conversational AI.
