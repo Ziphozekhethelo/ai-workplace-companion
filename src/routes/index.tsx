@@ -7,9 +7,9 @@ import { ProductivityWorkspace } from "@/components/productivity-workspace";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Workmate AI | Workplace Productivity Assistant" },
+      { title: "AI Productivity Companion | Workplace Productivity Assistant" },
       { name: "description", content: "Summarize research, prioritize tasks, and get practical workplace guidance in a private browser workspace." },
-      { property: "og:title", content: "Workmate AI | Workplace Productivity Assistant" },
+      { property: "og:title", content: "AI Productivity Companion | Workplace Productivity Assistant" },
       { property: "og:description", content: "A polished AI productivity workspace for research, planning, and workplace questions." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
